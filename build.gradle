@@ -1,7 +1,3 @@
-plugins {
-    id "org.jetbrains.qodana" version "2024.1.9"
-}
-
 buildscript {
     repositories {
         mavenCentral()
@@ -127,4 +123,7 @@ project(':example-provider') {
 
 }
 
+plugins {
+    id "org.jetbrains.qodana" version "2024.1.9"
+}
 
