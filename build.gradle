@@ -9,6 +9,10 @@ buildscript {
     }
 }
 
+plugins {
+    id "org.jetbrains.qodana" version "2024.1.9"
+}
+
 allprojects {
   apply plugin: 'java'
   apply plugin: 'idea'
@@ -123,7 +127,4 @@ project(':example-provider') {
 
 }
 
-plugins {
-    id "org.jetbrains.qodana" version "2024.1.9"
-}
 
